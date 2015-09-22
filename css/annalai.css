@@ -1,0 +1,96 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.nav a{
+    color: #5a5a5a;
+    font-family: 'Lato',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    padding: 14px 10px;
+    text-transform: uppercase;
+}
+
+.nav li {
+    display: inline;
+}
+
+.navbar-header a{
+    color: #5a5a5a;
+    font-family: 'Lato',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:300;
+    font-size: 16px;
+    padding: 14px 10px;
+}
+
+
+.jumbotron {
+    background-image:url('../img/Anna.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.centered-and-cropped {
+    object-fit: cover
+}
+
+.jumbotron .container {
+    position: relative;
+    height: 100%;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    font-size: 62px;
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+    text-shadow: grey 0.1em 0.1em 0.2em;
+}
+
+.jumbotron p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.about {
+    background-image:url('../img/sky.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.about h2 {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Shift', sans-serif;
+}
+
+.about .img-circle {
+    width: 180px;
+    height: 180px;
+}
+
+.about .btn {
+    margin-top: 42px;
+    margin-left: -150px;
+}
+
+.about .btn-group {
+    color: #5a5a5a;
+    left: 145px;
+    margin-right: 2px;
+}
+
+
+body {
+    padding-top: 50px;
+}
+
+@media (max-width: 979px) {
+    body {
+        padding-top: 0px;
+    }
+}
