@@ -2,15 +2,15 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="208px" height="208px" viewBox="0 0 208 208" enable-background="new 0 0 208 208" xml:space="preserve">
+	 width="225.001px" height="225px" viewBox="-8 -8 225.001 225" enable-background="new -8 -8 225.001 225" xml:space="preserve">
 <g>
 	<circle fill="none" stroke="#707EBD" stroke-width="8" stroke-miterlimit="10" cx="104" cy="104" r="100"/>
 	<path fill="none" stroke="#707EBD" stroke-width="2.6667" stroke-miterlimit="10" d="M156.622,181.635
-		c-1.031,0.758-3.442-0.465-6.916-3.32c-3.478-2.855-8.015-7.349-13.304-13.133c-5.289-5.785-11.327-12.863-17.805-20.892
-		c-6.48-8.026-13.393-17.005-20.432-26.589c-7.042-9.588-12.081-16.773-15.622-22.211c-3.539-5.44-5.581-9.13-6.612-11.725
+		c-1.031,0.758-3.442-0.465-6.916-3.32c-3.478-2.854-8.015-7.349-13.304-13.133c-5.289-5.785-11.327-12.863-17.805-20.892
+		c-6.48-8.026-13.395-17.005-20.434-26.589c-7.042-9.588-12.081-16.773-15.622-22.211c-3.539-5.44-5.581-9.13-6.612-11.725
 		c-1.031-2.595-1.065-4.096-0.583-5.15c0.479-1.056,1.469-1.667,2.471-2.485c1.083-0.884,2.07-1.812,3.385-2.108
 		c1.315-0.292,2.951,0.047,5.333,1.695c2.385,1.651,5.508,4.608,9.799,9.55c4.289,4.944,9.743,11.87,16.784,21.456
-		c7.042,9.584,13.537,18.87,19.258,27.453c5.723,8.582,10.667,16.465,14.602,23.244c3.938,6.778,6.865,12.453,8.551,16.624
+		c7.042,9.583,13.537,18.87,19.258,27.453c5.725,8.582,10.667,16.465,14.604,23.244c3.938,6.778,6.864,12.453,8.551,16.624
 		C157.211,178.213,157.652,180.877,156.622,181.635z"/>
 	<path fill="none" stroke="#707EBD" stroke-width="2.6667" stroke-miterlimit="10" d="M78.109,75.473
 		c0-22.669-1.617-24.969-12.377-29.23c-7.617-1.973-26.188-2.234-26.188-7.324c0,24.072,17.773,38.221,37.153,38.221"/>
@@ -41,19 +41,19 @@
 		
 			<rect x="57.305" y="45.419" fill="#707EBD" stroke="#707EBD" stroke-width="0.5333" stroke-miterlimit="10" width="8.487" height="4.445"/>
 		
-			<rect x="58.698" y="55.317" transform="matrix(0.7414 -0.6711 0.6711 0.7414 -25.6137 56.0291)" fill="#707EBD" stroke="#707EBD" stroke-width="0.5333" stroke-miterlimit="10" width="2.37" height="11.857"/>
+			<rect x="58.698" y="55.319" transform="matrix(0.7415 -0.671 0.671 0.7415 -25.6147 56.0169)" fill="#707EBD" stroke="#707EBD" stroke-width="0.5333" stroke-miterlimit="10" width="2.37" height="11.857"/>
 		
 			<rect x="62.432" y="63.435" fill="#707EBD" stroke="#707EBD" stroke-width="0.5333" stroke-miterlimit="10" width="3.201" height="3.181"/>
 		
 			<rect x="45.588" y="56.995" fill="#707EBD" stroke="#707EBD" stroke-width="0.5333" stroke-miterlimit="10" width="3.935" height="3.59"/>
 		
-			<rect x="59.271" y="49.656" fill="#707EBD" stroke="#707EBD" stroke-width="0.5333" stroke-miterlimit="10" width="5.602" height="1.813"/>
+			<rect x="59.271" y="49.656" fill="#707EBD" stroke="#707EBD" stroke-width="0.5333" stroke-miterlimit="10" width="5.602" height="1.812"/>
 		
 			<rect x="58.734" y="51.069" fill="#707EBD" stroke="#707EBD" stroke-width="0.5333" stroke-miterlimit="10" width="3.932" height="1.796"/>
 		
 			<rect x="59.159" y="61.928" fill="#707EBD" stroke="#707EBD" stroke-width="0.5333" stroke-miterlimit="10" width="3.083" height="3.008"/>
 		
-			<rect x="60.764" y="63.247" transform="matrix(0.7279 -0.6857 0.6857 0.7279 -27.8875 60.3564)" fill="#707EBD" stroke="#707EBD" stroke-width="0.5333" stroke-miterlimit="10" width="2.666" height="4.131"/>
+			<rect x="60.77" y="63.253" transform="matrix(0.7279 -0.6857 0.6857 0.7279 -27.8896 60.3615)" fill="#707EBD" stroke="#707EBD" stroke-width="0.5333" stroke-miterlimit="10" width="2.666" height="4.131"/>
 	</g>
 	
 		<line fill="none" stroke="#707EBD" stroke-width="2.1333" stroke-miterlimit="10" x1="68.099" y1="167.555" x2="99.802" y2="119.463"/>
@@ -80,12 +80,13 @@
 	
 		<line fill="none" stroke="#707EBD" stroke-width="2.1333" stroke-miterlimit="10" x1="110.062" y1="104" x2="139.839" y2="58.834"/>
 </g>
-<circle opacity="0.7" fill="#FFFFFF" enable-background="new    " cx="104" cy="104" r="95"/>
+<circle opacity="0.8" fill="#FCFCFC" enable-background="new    " cx="105" cy="104" r="95"/>
 <rect x="7.629" y="49.325" fill="none" width="196.688" height="121.12"/>
-<text transform="matrix(1 0 0 1 53.9497 60.8281)" font-family="'Helvetica'" font-size="16">I love to make. </text>
-<text transform="matrix(1 0 0 1 37.0518 80.0283)" font-family="'Helvetica'" font-size="16">When I’m not in the </text>
-<text transform="matrix(1 0 0 1 24.6016 99.2285)" font-family="'Helvetica'" font-size="16">library or out exploring, </text>
-<text transform="matrix(1 0 0 1 16.5869 118.4287)" font-family="'Helvetica'" font-size="16">you can probably find me </text>
-<text transform="matrix(1 0 0 1 27.2588 137.6289)" font-family="'Helvetica'" font-size="16">purging my ideas onto </text>
-<text transform="matrix(1 0 0 1 78.4028 156.8281)" font-family="'Helvetica'" font-size="16">canvas.</text>
+<rect x="-8" y="-8" fill="none" width="225.001" height="225"/>
+<text transform="matrix(1 0 0 1 54.1592 64.9355)" font-family="'Avenir-Light'" font-size="16">I love to make.</text>
+<text transform="matrix(1 0 0 1 26.4551 84.1357)" font-family="'Avenir-Light'" font-size="16">If I’m not in the library </text>
+<text transform="matrix(1 0 0 1 29.7031 103.3359)" font-family="'Avenir-Light'" font-size="16">or out exploring, you </text>
+<text transform="matrix(1 0 0 1 28.5522 122.5361)" font-family="'Avenir-Light'" font-size="16">can probably find me </text>
+<text transform="matrix(1 0 0 1 29.439 141.7363)" font-family="'Avenir-Light'" font-size="16">purging my thoughts </text>
+<text transform="matrix(1 0 0 1 61.5752 160.9355)" font-family="'Avenir-Light'" font-size="16">onto canvas.</text>
 </svg>

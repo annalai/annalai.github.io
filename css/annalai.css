@@ -1,6 +1,8 @@
-html {
-    width: 100%;
-    height: 100%;
+body {
+    background-color: #fcfcfc;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 50px;
 }
 
 .nav a{
@@ -21,6 +23,7 @@ html {
     font-weight:300;
     font-size: 16px;
     padding: 14px 10px;
+    text-transform: uppercase;
 }
 
 
@@ -52,41 +55,6 @@ html {
 .jumbotron p {
     font-size: 20px;
     color: #fff;
-}
-
-.about {
-    background-image:url('../img/sky.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-    max-width: 100%;
-    height: 100vh;
-}
-
-.about h2 {
-    color: #fff;
-    font-size: 30px;
-    font-family: 'Shift', sans-serif;
-}
-
-.about .img-circle {
-    width: 180px;
-    height: 180px;
-}
-
-.about .btn {
-    margin-top: 42px;
-    margin-left: -150px;
-}
-
-.about .btn-group {
-    color: #5a5a5a;
-    left: 145px;
-    margin-right: 2px;
-}
-
-
-body {
-    padding-top: 50px;
 }
 
 @media (max-width: 979px) {

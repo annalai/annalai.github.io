@@ -2,7 +2,7 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="208px" height="208px" viewBox="0 0 208 208" enable-background="new 0 0 208 208" xml:space="preserve">
+	 width="225.001px" height="225px" viewBox="-8 -8 225.001 225" enable-background="new -8 -8 225.001 225" xml:space="preserve">
 <g>
 	
 		<rect x="39.374" y="60.133" fill="none" stroke="#A960A7" stroke-width="5.9203" stroke-miterlimit="10" width="129.726" height="85.867"/>
@@ -19,6 +19,7 @@
 	
 		<circle opacity="0.9" fill="none" stroke="#A960A7" stroke-width="8" stroke-miterlimit="10" enable-background="new    " cx="104.572" cy="103.067" r="100"/>
 </g>
-<circle opacity="0.7" fill="#FFFFFF" enable-background="new    " cx="104.572" cy="103.066" r="95"/>
-<text transform="matrix(1 0 0 1 74.1099 81.5391)" font-family="'Helvetica'" font-size="16">View my</text>
+<circle opacity="0.7" fill="#FCFCFC" enable-background="new    " cx="104.572" cy="103.066" r="95"/>
+<text transform="matrix(1 0 0 1 73.1099 126.3047)" font-family="'Avenir-Light'" font-size="16">RESUME</text>
+<rect x="-8" y="-8" fill="none" width="225.001" height="225"/>
 </svg>
