@@ -1,64 +1,76 @@
-body {
-    background-color: #fcfcfc;
-    font-size: 14px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    padding-top: 50px;
+/* Basic Document Styling */
+html {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F2F2F2;
+    color: #101010;
+    font-size: 11px;
 }
 
-.nav a{
-    color: #5a5a5a;
-    font-family: 'Lato',"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    padding: 14px 10px;
+
+/* General DOM Styling */
+a {
+    font-weight: 600;
+    color: inherit;
+    text-decoration: none;
+}
+a:hover   {
+    color: #3A6182;
+    text-decoration: none; 
+}
+ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+
+/* Section Related Classes */
+.section {
+    max-width: 550px;
+    padding-bottom: 35px;
+}
+.portfolio {
+    max-width: 550px;
+    padding-top: 35px;
+}
+.last-section {
+    max-width: 550px;
+}
+.section-title {
     text-transform: uppercase;
-}
-
-.nav li {
-    display: inline;
-}
-
-.navbar-header a{
-    color: #5a5a5a;
-    font-family: 'Lato',"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight:300;
-    font-size: 16px;
-    padding: 14px 10px;
-    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: 1.6px;
+    color: #777777;
 }
 
 
-.jumbotron {
-    background-image:url('../img/Anna.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    height: 100vh;
+/* Specific Section Styling */
+#main {
+    padding: 50px;
 }
-
-.centered-and-cropped {
-    object-fit: cover
+#name {
+    font-weight: 80;
+    letter-spacing: 1.1px;
+    font-size: 5rem;
+    text-transform:  uppercase;
 }
-
-.jumbotron .container {
-    position: relative;
-    height: 100%;
+#intro {
+    font-weight: 300;
+    font-size: 2rem;
+    letter-spacing: .2px;
+    line-height: 30px;
 }
-
-.jumbotron h1 {
-    color: #fff;
-    font-size: 62px;
-    font-family: 'Shift', sans-serif;
-    font-weight: bold;
-    text-shadow: grey 0.1em 0.1em 0.2em;
+#links {
+    letter-spacing: .2px;
+    font-size: 1.8rem;
+    line-height: 30px;
 }
-
-.jumbotron p {
-    font-size: 20px;
-    color: #fff;
+#work {
+    letter-spacing: .2px;
+    font-size: 1.8rem;
+    line-height: 30px;
 }
-
-@media (max-width: 979px) {
-    body {
-        padding-top: 0px;
-    }
+#footer {
+    font-size: 1.1rem;
+    padding-top: 35px;
+    letter-spacing: .2px;
 }
