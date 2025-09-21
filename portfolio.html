@@ -2,233 +2,181 @@
 <html>
 
   <head>
-    <title>Anna Lai Portfolio</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PKZNHW16PD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'G-PKZNHW16PD');
+    </script>
+
+    <title>Anna Lai Portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Search SEO -->
-    <meta name="description" content="Portfolio. Senior in Mechanical Engineering at Stanford University." />
+    <meta name="description" content="Anna Lai's Portfolio" />
     <meta name="author" content="Anna Wei Lai" />
     <meta name="keywords" content="anna, lai, anna lai, art, CAD, design, engineer, houston, machining, mechanical engineering, product, programming, research, stanford, stanford university"/>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/1-col-portfolio.css" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favs/favicon_bread_180x180.png">
+    <link rel="icon" type="image/svg+xml" href="img/favs/favicon_bread.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favs/favicon_bread_32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favs/favicon_bread_16x16.png">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/annalai.css" type="text/css"/>
+    <link rel="stylesheet" href="css/annalai.css" type="text/css"/> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 
   </head>
-  	
+      
+  <header class="header">
+        <nav class="navbar">
+          <a href="index.html" class="logo"> <img src="img/favs/favicon_bread_180x180.png" alt="back-to-about"/></a>
+            <ul class="nav-menu">
+              <li class="nav-item"><a href="index.html"class="nav-link">About</a></li>
+              <li class="nav-item"><a href="portfolio.html"class="nav-link">Portfolio</a></li>
+              <li class="nav-item"><a href="https://www.etsy.com/shop/alaidesignshop"class="nav-link" target="_blank" rel="noopener noreferrer">Shop</a></li>
+            </ul>
+          <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+        </nav>
+  </header>
+
   <body>
 
     <!-- Page Content -->
-    <div class="container">
+    <div id="main">
 
       <!-- Page Heading -->
-      <h1 class="my-4" id="name"> Anna's Portfolio </h1>
-      <p class="section" id="intro"> Creations at the cusp of art, engineering, and design </p>
+      <h1 id="name"> Anna's Portfolio </h1>
 
+      <span class="portfolio-section-title">ENGINEERING</span>
+      <br>
+      <hr>
+      <br>
+      <span class="section" id="work">Professional</span>
+      <br>
+      <hr>
+      <br>
 
       <!-- Project  -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/coolest.png" alt="Coolest">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3> Alternative Energy Systems </h3>
-          <p> 
-          For ME141: Alternative Energy Systems, our team was presented with the challenge of designing a thermal management system for a RC car powered by 3-cell LiFePO4 battery pack. Weights were carried up a hill using the car until the battery powering the car had drained, overheated to 55℃, or 10 minutes had elapsed. Our design incorporated active and passive cooling through use of fans, heat sinks, thermal paste, and Peltier coolers which kept the battery below 30℃ during operation.
-          </p>
+      <div class="projects">
+        <div class="project-card engineering">
+          <div class="project-images">
+              <img src="img/eng/span/gen3_exp.png" alt="SPAN40" data-caption="Owned third generation panel enclosure, system bussing, and metered lug module design." loading="lazy">
+              <img src="img/eng/span/evse.png" alt="EVSE" data-caption="Ran engineering validation and reliablity testing of SPAN Drive." loading="lazy">
+              <img src="img/eng/span/span_24.png" alt="SPAN24" data-caption="SPAN16/24 second enclosure SKU." loading="lazy">
+              <img src="img/eng/span/install.png" alt="Install" data-caption="Installation of SPAN40." loading="lazy">
+              <img src="img/eng/span/ml.png" alt="ML" data-caption="Metered Lug Module." loading="lazy">
+          </div>
+          <div class="content">
+            <h3><a target=_blank href="https://span.io/">SPAN</a></h3>
+            <p> Electric panels and EVSE to enable home electrification for all. </p>
+          </div>
         </div>
       </div>
       <!-- /.row -->
+      <hr>
+
+      <!-- Project  -->
+      <div class="projects">
+        <div class="project-card art">
+          <div class="project-images">
+              <img src="img/eng/natron/iso.png" alt="" data-caption="BlueTray™ 4000 UL 1973 Listed cells, UL 9540A tested with no thermal runaway on cells or pack. Isometric View." loading="lazy">
+              <img src="img/eng/natron/top.png" alt="" data-caption="BlueTray™ 4000 Top View." loading="lazy"
+              <img src="img/eng/natron/1U.jpg" alt="" data-caption="1U Tray Photo" loading="lazy">
+          </div>
+          <div class="content">
+            <h3><a target=_blank href="https://natron.energy/">Natron Energy</a></h3>
+            <p> Novel sodium-ion battery cell, module, and packs for data center UPS. </p>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <span class="section" id="work">Student</span>
+      <br>
+      <hr>
+      <br>
+
+      <!-- Project  -->
+      <div class="projects">
+        <div class="project-card engineering">
+          <div class="project-images">
+              <img src="img/eng/me141/coolest.png" alt="Coolest" data-caption="For ME141: Alternative Energy Systems, our team was presented with the challenge of designing a thermal management system for a RC car powered by 3-cell LiFePO4 battery pack. Weights were carried up a hill using the car until the battery powering the car had drained, overheated to 55℃, or 10 minutes had elapsed. Our design incorporated active and passive cooling through use of fans, heat sinks, thermal paste, and Peltier coolers which kept the battery below 30℃ during operation." loading="lazy">
+          </div>
+          <div class="content">
+            <h3> ME141: Alternative Energy Systems </h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- /.row -->
+      <hr>
+
+      <!-- Project  -->
+      <div class="projects">
+        <div class="project-card engineering">
+          <div class="project-images">
+              <img src="img/eng/me318/metropolitain.png" alt="MetroMaze" data-caption="I designed this maze of the Paris Metro. Material: 6061 Aluminum, Acrylic. Designed in Solidworks, G-code generated in HSMworks, machined on 3-axis CNC mill." loading="lazy">
+              <img src="img/eng/me318/shell.png" alt="Shell" data-caption="Fibonacci Shell: Nautilus shell following the Fibonacci sequence designed in Solidworks, G-code generated in HSMworks, machined in 4027 Aluminum on 3-axis CNC mill and glass bead blasted to finish. " loading="lazy">
+              <img src="img/eng/me318/hua.png" alt="Hua" data-caption="Hua Bottle Opener: A bottle opener inspired by the story of Hua Mulan. Machined in 316 stainless steel, the bottle opener captures the strength of Mulan in contrast to the delicate Mongolia (木兰) flower her name represents. After becoming a war hero, Mulan chooses to return to her family. To reflect this I chose to use her family name, Hua (花), which naturally evolves into the head of the bottle opener and touches on how the story’s interpretation has changed overtime – from one of fulfilling filial duties to that of empowerment." loading="lazy">
+          </div>
+          <div class="content">
+            <h3>ME318: Computer-Aided Product Creation (CNC Machining)</h3>
+            <p><a target=_blank href="img/eng/me318/Maze.pdf"> Metro Maze</a>, Fibonacci Shell, Hua Bottle Opener </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- /.row -->
+      <hr>
+
+      <div class="projects">
+        <div class="project-card engineering">
+          <div class="project-images">
+              <img src="img/eng/me112/mynock.png" alt="mynock" data-caption="Jumping Robot: final project challenged our team to create a battery-powered jumping robot able to jump one meter and stick to a Velcro ceiling. The robot is inspired by Mynocks, the galactic pests that cling onto and consume the electricity of spaceships. The Mynock’s jumping movements mimic those of the earth frog, which serves as biomimetic inspiration." loading="lazy">
+          </div>
+          <div class="content">
+            <h3>ME112: Mechanical Systems Design</h3>
+            <p><a target=_blank href="img/eng/me112/jumper-design-document.pdf">Jumping Robot</a></p>
+          </div>
+        </div>
+      </div>
       
+      <!-- /.row -->
       <hr>
 
       <!-- Project  -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/nebulate.png" alt="Nebulate">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3> Nebulate </h3>
-          <p> 
-          	For CEE32H: Responsive Structures, our interdisciplinary team of Architecture, Structural Engineering, Mechanical Engineering, and Product Design students experimented with the limits of sheet plastic to design, prototype, and construct a full scale installation, <a target=_blank href="https://anderson.stanford.edu/programs-exhibitions/nebulate/">Nebulate</a>, at the Anderson Collection at Stanford. 
-          </p>
+      <div class="projects">
+        <div class="project-card engineering">
+          <div class="project-images">
+              <img src="img/eng/me203/ME203.jpg" alt="S3" data-caption="Final project for ME203: Design and Manufacturing. A stool with two rotating drawers. TIG welded frame, machined nylon bushings, bent sheet metal drawers, plywood stool top." loading="lazy">
+              <img src="img/eng/me203/magn.png" alt="magn" data-caption="Magnifying Glass: Brass ring turned on lathe and manually milled lug were brazed together with silver. Delrin handle and acrylic lens machined on lathe. Stand formed aluminum sheet metal." loading="lazy">
+              <img src="img/eng/me203/plaque.png" alt="plaque" data-caption="Stanford Plaque: Sand cast bronze plaque." loading="lazy">
+          </div>
+          <div class="content">
+            <h3>ME203: Design and Manufacturing</h3>
+            <p> <a target=_blank href="img/eng/me203/S3_Sum.pdf">S3</a>, Magnifying Glass, Stanford Plaque </p>
+          </div>
         </div>
       </div>
-      <!-- /.row -->
 
+
+      <!-- /.row -->
       <hr>
 
       <!-- Project  -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/shell.png" alt="Shell">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3> Fibonacci Shell </h3>
-          <p> 
-          <p> Nautilus shell following the Fibonacci sequence designed in Solidworks, G-code generated in HSMworks, machined in 4027 Aluminum on 3-axis CNC mill and glass bead blasted to finish. 
-          </p>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <hr>
-
-      <!-- Project  -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/mynock.png" alt="Mynock">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3> Jumping Robot </h3>
-          <p> 
-          	The final project of ME112: Mechanical Systems Design challenged our team to create a battery-powered jumping robot able to jump one meter and stick to a Velcro ceiling. The robot is inspired by Mynocks, the galactic pests that cling onto and consume the electricity of spaceships. The Mynock’s jumping movements mimic those of the earth frog, which serves as biomimetic inspiration. Read the full design report <a target=_blank href="img/jumper-design-document.pdf">here</a>. 
-          </p>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <hr>
-
-      <!-- Project  -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/hua.png" alt="Hua">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3> Hua Bottle Opener </h3>
-          <p> 
-          	A bottle opener inspired by the story of Hua Mulan. Machined in 316 stainless steel, the bottle opener captures the strength of Mulan in contrast to the delicate Mongolia (木兰) flower her name represents. After becoming a war hero, Mulan chooses to return to her family. To reflect this I chose to use her family name, Hua (花), which naturally evolves into the head of the bottle opener and touches on how the story’s interpretation has changed overtime – from one of fulfilling filial duties to that of empowerment.
-          </p>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <hr>
-
-      <!-- Project  -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/metropolitain.png" alt="MetroMaze">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3> Metro Maze </h3>
-          <p> I designed this maze of the Paris Metro for ME318: Computer-Aided Product Creation. Material: 6061 Aluminium, Acrylic. Designed in Solidworks, G-code generated in HSMworks, machined on 3-axis CNC mill. See the design summary <a target=_blank href="img/Maze.pdf">here</a>. 
-          </p>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <hr>
-
-      <!-- Project  -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/deliverables.png" alt="ME181">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3> Mechanical Design Practicum</h3>
-          <p> Various samples of assignments for ME181: Deliverables. This course covered common materials, manufacturing processes, and design techniques required in industry. Projects included submitting deliverables of CAD assemblies and drawings, as well as design presentations and reviews.
-          </p>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <hr>
-
-      <!-- Project  -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/ME203.jpg" alt="S3">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h2> S3 </h2>
-          <p> Final project for ME203: Design and Manufacturing. A stool with two rotating drawers. TIG welded frame, machined nylon bushings, bent sheet metal drawers, plywood stool top. 
-          <br><br>
-          See a summary of my design process <a target=_blank href="img/S3_Sum.pdf">here</a>. 
-          </p>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <hr>
-
-      <!-- Project  -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/magn.png" alt="magn">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h2> Magnifying Glass </h2>
-          <p> Brass ring turned on lathe and manually milled lug were brazed together with silver. Delrin handle and acrylic lens machined on lathe. Stand formed aluminum sheet metal.   
-          </p>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <hr>
-
-      <!-- Project  -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/plaque.png" alt="plaque">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h2> Stanford Plaque </h2>
-          <p> Sand cast bronze plaque.
-          </p>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <hr>
-
-    <!-- Project  -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/MontSaintMichel.png" alt="reflection">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3> Digital Design </h3>
-          <p> For ME110B, a follow up course to ME110: Design Sketching, we apply design techniques to digital media and establish a proficiency in Photoshop. This sample was for the reflection assignment, where I reflected my image of Mont Saint Michel from day to night. </p>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <hr>
-
-      <!-- Project  -->
-      <div class="row">
+<!--       <div class="row">
         <div class="col-md-7">
           <a href="#">
             <img class="img-fluid rounded mb-3 mb-md-0" src="img/CME151A.png" alt="dataviz">
@@ -238,136 +186,193 @@
           <h3> Data Visualization </h3>
           <p> For CME151A: Interactive Data Visualizations in D3, a workshop covering basics of HTML/CSS and Javascript, I created this portfolio, an interactive <a target=_blank href="http://stanford.edu/~alai2/barplot.html">bar plot</a>, and a <a target=_blank href="http://stanford.edu/~alai2/final_project.html">map</a> with data about where I have traveled (a work and progress, updated as I explore the world).  </p>
         </div>
+      </div> -->
+
+      <!-- /.row -->
+      <!-- <hr> -->
+
+      <!-- Project  -->
+      <div class="projects">
+        <div class="project-card engineering">
+          <div class="project-images">
+              <img src="img/eng/lab/droplets.png" alt="lab" data-caption="I developed large-scale droplet deposition devices using machine shop tools to investigate lattice systems of droplets, fabricated microfluidic devices, and aided in the design of optical setups using Arduinos." loading="lazy">
+              <img src="img/eng/lab/reu.png" alt="reuposter" data-caption="BioE REU Poster Presentation Summer 2015." loading="lazy">
+          </div>
+          <div class="content">
+            <h3>Undergraduate Research: <a target=_blank href="https://prakashlab.stanford.edu/">Prakash Lab</a></h3>
+            <p> Funded by <a target=_blank href="https://biox.stanford.edu/research/undergraduate-research">BioX USRP</a> and <a target=_blank href="https://bioengineering.stanford.edu/student-resources/reu">BioE REU</a> grants, studied <a target=_blank href="https://www.pnas.org/doi/10.1073/pnas.2020014118">self-assembling </a> <a target=_blank href="https://arxiv.org/abs/1711.06404">vapor-mediated </a> <a target=_blank href="https://www.youtube.com/watch?v=ZMsaH6SY4CY">droplets</a>.</p> 
+          </div>
+        </div>
+      </div>
+
+      <span class="portfolio-section-title">ART PROJECTS</span>
+      <br>
+      <hr>
+      <br>
+
+      <span class="section" id="work">3D</span>
+      <br>
+      <hr>
+      <br>
+
+      <!-- Project  -->
+      <div class="projects">
+        <div class="project-card art">
+          <div class="project-images">
+              <img src="img/art/3d/ceramic/croc.png" alt="croc" data-caption="Hand built croc and jibbitz. Can hold a Roku TV remote." loading="lazy">
+              <img src="img/art/3d/ceramic/donut.png" alt="donut" data-caption="Wheel thrown donut and hand painted sprinkles and peach gloss glaze. Wall mountable." loading="lazy">
+              <img src="img/art/3d/ceramic/moon.png" alt="moon" data-caption="Assorted moon jars." loading="lazy">
+              <img src="img/art/3d/ceramic/calcifer.png" alt="calcifer" data-caption="Calcifer tea pot warmer. Wheel thrown and hand carved. Hand built and painted frying pan tea light holder." loading="lazy">
+              <img src="img/art/3d/ceramic/matcha.png" alt="matcha" data-caption="Matcha bowls. Wheel thrown and hand painted." loading="lazy">
+              <img src="img/art/3d/ceramic/dumplin.png" alt="dumpling" data-caption="Dumpling plate. Porcelain." loading="lazy">
+              <img src="img/art/3d/ceramic/mini.png" alt="mini" data-caption="Miniature chopstick rest characters." loading="lazy">
+          </div>
+          <div class="content">
+            <h3>Ceramics</h3>
+            <p> Handbuilt, Wheel Thrown</p>
+          </div>
+        </div>
       </div>
       <!-- /.row -->
-
       <hr>
 
       <!-- Project  -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/droplets.png" alt="lab">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3> Droplets </h3>
-          <p> Undergraduate research conducted in <a target=_blank href="http://web.stanford.edu/group/prakash-lab/cgi-bin/labsite/">Prakash Lab</a>, with the <a target=_blank href="https://biox.stanford.edu/research/undergraduate-research">BioX USRP</a> and <a target=_blank href="https://bioengineering.stanford.edu/student-resources/reu">BioE REU</a>, 
-          studying self-assembling vapor-mediated <a target=_blank href="https://www.youtube.com/watch?v=ZMsaH6SY4CY">droplets</a>. 
-          <br><br>
-          I developed large-scale droplet deposition devices using machine shop tools to investigate lattice systems of droplets, fabricated microfluidic devices, and aided in the design of optical setups using Arduinos. Feel free to contact me for more information.</p>
+      <div class="projects">
+        <div class="project-card art">
+          <div class="project-images">
+              <img src="img/art/3d/arch/nebulate.png" alt="Nebulate" data-caption="Our interdisciplinary team of Architecture, Structural Engineering, Mechanical Engineering, and Product Design students experimented with the limits of sheet plastic to design, prototype, and construct a full-scale installation, Nebulate, at the Anderson Collection at Stanford." loading="lazy">
+              <img src="img/art/3d/arch/pratt.png" alt="pratt" data-caption="During a month-long architecture intensive at the Pratt Institute in Brooklyn, NY, I learned about architecture drafting techniques and built scaled models for a proposed gallery space off of the Brooklyn-Queens Expressway." loading="lazy">
+          </div>
+          <div class="content">
+            <h3>Architecture</h3>
+            <p> CEE32H: Responsive Structures <a target=_blank href="https://anderson.stanford.edu/programs-exhibitions/nebulate/">Nebulate</a>, <a target=_blank href="https://www.pratt.edu/architecture/">Pratt Institute</a> Architecture Intensive</p>
+          </div>
         </div>
       </div>
       <!-- /.row -->
-
       <hr>
 
       <!-- Project  -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/artsintensive.png" alt="AI">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3> Painting Engaging Stories </h3>
-          <p> During a two week Arts Intensive I experimented with watercolor, here are a couple works exhibited at the final showcase and in Hume Center for Writing and Speaking at Stanford.
-          <br> <br> 
-          Levels of Tokyo (Left), Between Worlds (Right)
-          <br> 
-          See more artwork <a target=_blank href="https://www.instagram.com/alaidesigns"> here</a>.
-          </p>
+      <div class="projects">
+        <div class="project-card art">
+          <div class="project-images">
+              <img src="img/art/3d/metal/paprika.png" alt="" data-caption="Persimmon earrings" loading="lazy">
+              <img src="img/art/3d/metal/stpatty.png" alt="" data-caption="Ring with bezel set stone" loading="lazy">
+              <img src="img/art/3d/metal/egg.png" alt="" data-caption="Egg studs" loading="lazy">
+              <img src="img/art/3d/metal/flora.png" alt="" data-caption="Flora pendants" loading="lazy">
+              <img src="img/art/3d/kirby.png" alt="" data-caption="Demon Kirby" loading="lazy">
+          </div>
+          <div class="content">
+            <h3>Metal</h3>
+            <p> Jewelry </p>
+          </div>
         </div>
       </div>
       <!-- /.row -->
-
       <hr>
 
+      <span class="section" id="work">2D</span>
+      <br>
+      <hr>
+      <br>
 
       <!-- Project  -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/pratt.png" alt="pratt">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3> Architecture Intensive </h3>
-          <p> During a four week architecture intensive at the Pratt Institute in Brooklyn, NY, I learned about architecture drafting techniques and built scaled models for a proposed gallery space off of the Brooklyn-Queens Expressway.
-          <br> <br> 
-          See more artwork <a target=_blank href="https://www.instagram.com/alaidesigns"> here</a>.
-          </p>
+      <div class="projects">
+        <div class="project-card art">
+          <div class="project-images">
+              <img src="img/art/2d/paint/bryce.png" alt="canyon" data-caption="Bryce Canyon (2023), Oil on Canvas, 22&quot;x28&quot;" loading="lazy">
+              <img src="img/art/2d/paint/rodeo.png" alt="rodeo-art-1" data-caption="Round 'Em Up (2013), Oil on Canvas." loading="lazy">
+              <img src="img/art/2d/paint/koi.png" alt="" data-caption="Koi at the Conservatory (2022), 16&quot;x20&quot;, Acrylic on Canvas." loading="lazy">
+              <img src="img/art/2d/paint/bridge.png" alt="bridge" data-caption="Storbaelt (2018), Oil on Canvas." loading="lazy">
+              <img src="img/art/2d/paint/ej.png" alt="ej" data-caption="Edward & Jacob (2024), Acrylic/Acryl Gouache on Canvas." loading="lazy">
+              <img src="img/art/2d/paint/carnet.png" alt="carnet" data-caption="Carnet de Voyage (2016-), Assorted watercolors from my travel sketchbooks." loading="lazy">
+              <img src="img/art/2d/paint/sf.png" alt="sf" data-caption="SF en plein air (2024), Watercolor." loading="lazy">
+              <img src="img/art/2d/paint/palacefa.png" alt="palaceaf" data-caption="Palace of Fine Arts SF (2021), Acrylic." loading="lazy">
+              <img src="img/art/2d/paint/tokyo.png" alt="skytree" data-caption="skytree:levels (2016), Exhibited at the Hume Center for Writing and Speaking at Stanford in 2019." loading="lazy">
+              <img src="img/art/2d/paint/sthelens.png" alt="mtsthelens" data-caption="Mount Saint Helens (2023), Oil on Canvas board." loading="lazy">
+          </div>
+          <div class="content">
+            <h3>Painting</h3>
+            <p> Watercolor, Oil, Acrylic </p>
+          </div>
         </div>
       </div>
       <!-- /.row -->
-
       <hr>
 
       <!-- Project  -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/rodeo.png" alt="rodeo">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3> Rodeo Art </h3>
-          <p> Artwork for Houston Livestock Show and Rodeo, clockwise from the upper-left corner: 
-              <br>
-              Rest (2014), Colored Pencil
-              <br>
-              Round 'Em Up (2013), Oil on Canvas
-              <br>
-              Weaving Loom (2011), Acrylic on Canvas
-              <br>
-              The Riding Lesson (2010), Colored Pencil
-              <br> <br> 
-              See more artwork <a target=_blank href="https://www.instagram.com/alaidesigns"> here</a>.
-          </p>
+      <div class="projects">
+        <div class="project-card art">
+          <div class="project-images">
+              <img src="img/art/2d/print/luna.png" alt="luna" data-caption="Year of the Rabbit (2023), Silkscreen Print using hand cut paper stencil." loading="lazy">
+              <img src="img/art/2d/print/yaki.png" alt="taiyaki" data-caption="Ube Takyaki, 2 Color Silkscreen Print, drawn in procreate then burned screen to screen" loading="lazy">
+          </div>
+          <div class="content">
+            <h3>Printmaking</h3>
+            <p> Silkscreen </p>
+          </div>
         </div>
       </div>
       <!-- /.row -->
-
       <hr>
 
-      <!-- Project -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/daxwell-foil-sheets.jpg" alt="daxwell">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3> Daxwell </h3>
-          <p> Sample graphic design for Daxwell's foil sheet containers, created in Photoshop. </p>
+      <!-- Project  -->
+      <div class="projects">
+        <div class="project-card art">
+          <div class="project-images">
+              <img src="img/art/2d/draw/rest.png" alt="rest" data-caption="Rest (2014), Colored Pencil." loading="lazy">
+              <img src="img/art/2d/draw/figures.png" alt="figures" data-caption="Figure Studies, Charcoal on Newsprint." loading="lazy">
+              <img src="img/art/2d/draw/hands.png" alt="hands" data-caption="Hand Studies, Graphite." loading="lazy">
+              <img src="img/art/2d/draw/riding.png" alt="ridinglesson" data-caption="The Riding Lesson (2010), Colored Pencil." loading="lazy">
+              <img src="img/art/2d/draw/portrait.png" alt="portraits" data-caption="Portrait Studies, Charcoal and Graphite." loading="lazy">
+          </div>
+          <div class="content">
+            <h3>Drawing</h3>
+            <p> Colored Pencil, Graphite, Charcoal</p>
+          </div>
         </div>
       </div>
       <!-- /.row -->
-
       <hr>
 
-      <!-- Project -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/breadth.png" alt="art">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3> Other Art Projects </h3>
-          <p> Here are some sample sketches and paintings. I am continuing with new projects and always have a sketchbook on hand, ready when inspiration strikes. Check out new pieces <a target=_blank href="https://www.instagram.com/alaidesigns"> here</a></p>
+      <!-- Project  -->
+      <div class="projects">
+        <div class="project-card art">
+          <div class="project-images">
+              <img src="img/art/2d/digital/mission.png" alt="mission" data-caption="Mission Patches, Drawn in Procreate and edited in Adobe Illustrator. Made into woven patches and stickers to commemorate team milestones." loading="lazy">
+              <img src="img/art/2d/digital/dig2print.png" alt="printillustrations" data-caption="Illustrations in Procreate. Layers separated in Photoshop for 2 Color and CMYK silkscreen printing." loading="lazy">
+          </div>
+          <div class="content">
+            <h3>Digital</h3>
+            <p> Illustration </p>
+          </div>
         </div>
       </div>
       <!-- /.row -->
-
       <hr>
+    </div>
+
+    <footer id="footer">© 2025 <span class="heart">♥</span> Anna Lai</footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+      <span class="close">&times;</span>
+      <span class="prev">&#10094;</span>
+      <span class="next">&#10095;</span>
+      <!-- Image -->
+      <div class="lightbox-image-wrapper">
+        <img src="" alt="">
+        <!-- Caption below the image -->
+        <div class="caption"></div>
+      </div>
+    </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Custom Javascript -->
-    <script type="text/javascript" src="annalai.js"></script>
+    <script src="annalai.js"></script>
 
   </body>
 
