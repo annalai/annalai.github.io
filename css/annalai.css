@@ -80,7 +80,7 @@ header {
 
 .logo img {
   height: auto;              /* maintain aspect ratio */
-  max-height: 40px;           /* control vertical size */
+  max-height: 38px;           /* control vertical size */
   width: auto;                /* let width scale automatically */
   max-width: 150px;           /* optional horizontal limit */
   object-fit: contain;        /* prevents distortion */
@@ -207,6 +207,7 @@ header {
 
 /* Fixed image container height */
 .project-card .project-images {
+  margin-top:0.5rem;
   width: 100%;
   height: 400px; /* fixed height for all cards */
   overflow: hidden;
@@ -243,6 +244,9 @@ header {
 .project-card .content h3 { 
     text-align:center; 
     font-size:1.5rem; 
+    font-weight: 600;
+    color: inherit;
+    text-decoration: none;
     color: #777777;
     margin-bottom:0.5rem;
 }
