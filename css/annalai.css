@@ -115,6 +115,12 @@ header {
         cursor: pointer;
     }
 
+    /* Ensure hamburger bars are visible and positioned correctly by default */
+    .hamburger .bar {
+        opacity: 1;
+        transform: none;
+    }
+
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
